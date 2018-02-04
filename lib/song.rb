@@ -4,6 +4,5 @@ class Song
     @name = name
     @genre = genre
     Genre.songs << self
-    binding.pry
   end
 end
