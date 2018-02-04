@@ -1,3 +1,5 @@
+require "pry"
+
 class Artist
   attr_accessor :name, :songs, :genres
   def initialize(name)
@@ -10,6 +12,7 @@ class Artist
   end
   def genres
     self.songs.each do |x|
+      binding.pry
       x.genre
     end
   end
