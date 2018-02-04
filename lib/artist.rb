@@ -11,8 +11,8 @@ class Artist
     song.artist = self
   end
   def genres
-    self.songs.each do |x|
-      x
+    self.songs.collect do |x|
+      x.genre
     end
   end
 end
