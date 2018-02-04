@@ -1,7 +1,7 @@
 class Genre
   attr_accessor :name, :artist
-  def initialize(genre)
-    @genre = genre
+  def initialize(name)
+    @name = genre
     @artists = []
   end
 end
