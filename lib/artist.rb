@@ -11,7 +11,7 @@ class Artist
     song.artist = self
   end
   def genres
-    self.songs.map do |x|
+    self.songs.collect do |x|
       x.genre
     end
   end
