@@ -5,7 +5,7 @@ class Genre
     @name = name
     @songs = []
   end
-  def songs=(song)
+  def songs(song)
     self.songs << song
   end
 end
