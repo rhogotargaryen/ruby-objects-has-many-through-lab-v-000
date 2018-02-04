@@ -9,7 +9,7 @@ class Artist
     song.artist = self
   end
   def genres
-    self.song.each do |x|
+    self.songs.each do |x|
       x.genre
     end
   end
